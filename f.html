@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Generate Favicon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 512px;
+            height: 512px;
+            overflow: hidden;
+        }
+
+        body {
+            background: #0a0a0c;
+            background-image:
+                radial-gradient(circle at 30% 30%, rgba(212, 180, 131, 0.2) 0%, transparent 60%),
+                radial-gradient(circle at 70% 70%, rgba(168, 135, 82, 0.15) 0%, transparent 60%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .badge {
+            width: 340px;
+            height: 340px;
+            border-radius: 80px;
+            background: linear-gradient(135deg, #D4B483 0%, #C29F6E 50%, #A88752 100%);
+            color: #0a0a0c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 140px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            font-family: Georgia, serif;
+            box-shadow: 0 20px 60px rgba(212, 180, 131, 0.4);
+            position: relative;
+        }
+
+        .badge::after {
+            content: '';
+            position: absolute;
+            inset: -20px;
+            border-radius: 100px;
+            border: 3px solid rgba(212, 180, 131, 0.3);
+        }
+
+        .badge::before {
+            content: '';
+            position: absolute;
+            inset: -35px;
+            border-radius: 115px;
+            border: 1px dashed rgba(212, 180, 131, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="badge">PM</div>
+</body>
+
+</html>

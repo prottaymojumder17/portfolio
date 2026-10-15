@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Research Assistant — AI & Epidemic Modeling",
+    "meta": "Muntasir's Lab on Evolutionary Game Theory | Jul 2024 - Present",
+    "points": [
+      "Developing deep reinforcement learning models for optimal vaccination control in multistrain epidemic systems.",
+      "Building neural network-based forecasting pipelines for COVID-19 multistrain dynamics using real-world data.",
+      "Authored 2 research articles (1 under review) on game-theoretic optimal control with ML-driven policy recommendation."
+    ]
+  },
+  {
+    "title": "Machine Learning Researcher",
+    "meta": "Fluid Flow Modeling & Simulation Group | Mar 2022 - Jun 2024",
+    "points": [
+      "Applied machine learning regression models (XGBoost, Gaussian Processes) to model nanofluid heat transfer phenomena.",
+      "Published 3 articles and 2 under review in high-impact journals (22+ citations).",
+      "Developed Python-based pipelines for data preprocessing, feature engineering, and scientific visualization."
+    ]
+  },
+  {
+    "title": "Deep Learning Project Developer",
+    "meta": "Self-driven & academic collaborations | 2023 - Present",
+    "points": [
+      "Implemented Deep Q-Network (DQN) agent for pathfinding with real-time neural activation visualization.",
+      "Built SIRS epidemic simulation with neural network-based parameter estimation.",
+      "Explored transformer architectures for sequence-to-sequence forecasting tasks."
+    ]
+  },
+  {
+    "title": "Journal Reviewer (Volunteer)",
+    "meta": "Elsevier & Nature Portfolio | Dec 2023 - Present",
+    "points": [
+      "Reviewed advanced research in computational fluid dynamics, heat transfer, and nanofluidics.",
+      "Provided critical feedback on machine learning applications in physical sciences."
+    ]
+  }
+]

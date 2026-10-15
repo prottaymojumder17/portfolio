@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Journal",
+    "text": "Hossain, A., Shamashuddin, M.D., Asogwa, K.K. and Ferdows, M. Heat transmission phenomenon in magnetic nanofluid flow across movable flat device with heat source impact: local non-similarity solution with 2nd-stage truncation.",
+    "journal": "Journal of Thermal Analysis and Calorimetry",
+    "journalLink": "https://link.springer.com/article/10.1007/s10973-023-12751-8",
+    "volume": "149(4), pp.1581-1594",
+    "citation": "[9 citations]",
+    "conference": "2nd Annual JTAC conference 2023 Budapest, Hungary (Poster Presentation)",
+    "bibtex": "@article{hossain2024heat,\n  title={Heat transmission phenomenon in magnetic nanofluid flow across movable flat device with heat source impact},\n  author={Hossain, A. and Shamashuddin, M.D. and Asogwa, K.K. and Ferdows, M.},\n  journal={Journal of Thermal Analysis and Calorimetry},\n  volume={149},\n  number={4},\n  pages={1581--1594},\n  year={2024},\n  publisher={Springer}\n}"
+  },
+  {
+    "type": "Journal",
+    "text": "Khaleque, T.S., Hossain, A., Shamshuddin, M.D., Ferdows, M., Salawu, S.O. and Sun, S. Soret and dufour impacts on radiative power-law fluid flow via continuously stretchable surface with varying viscosity and thermal conductivity.",
+    "journal": "Scientific Reports",
+    "journalLink": "https://www.nature.com/articles/s41598-024-73426-4",
+    "volume": "14(1), p.23152",
+    "citation": "[11 citations]",
+    "conference": "",
+    "bibtex": "@article{khaleque2024soret,\n  title={Soret and Dufour impacts on radiative power-law fluid flow via continuously stretchable surface},\n  author={Khaleque, T.S. and Hossain, A. and Shamshuddin, M.D. and Ferdows, M. and Salawu, S.O. and Sun, S.},\n  journal={Scientific Reports},\n  volume={14},\n  number={1},\n  pages={23152},\n  year={2024},\n  publisher={Nature Publishing Group}\n}"
+  },
+  {
+    "type": "Journal",
+    "text": "Ferdows, M., Hossain, A., Uddin, M.J., Mim, F.T. and Sun, S. New similarity solutions of magnetohydrodynamic flow over horizontal plate by lie group with nonlinear hydrodynamic and linear thermal and mass slips.",
+    "journal": "Journal of Nonlinear Mathematical Physics",
+    "journalLink": "https://link.springer.com/article/10.1007/s44198-023-00145-1",
+    "volume": "30(4), pp.1601-1620",
+    "citation": "[2 citations]",
+    "conference": "AFMR-BMS Mathematical conference 2022 presentation",
+    "bibtex": "@article{ferdows2023new,\n  title={New similarity solutions of magnetohydrodynamic flow over horizontal plate},\n  author={Ferdows, M. and Hossain, A. and Uddin, M.J. and Mim, F.T. and Sun, S.},\n  journal={Journal of Nonlinear Mathematical Physics},\n  volume={30},\n  number={4},\n  pages={1601--1620},\n  year={2023},\n  publisher={Springer}\n}"
+  }
+]

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prottay Mojumder | AI/ML Researcher — Academic Portfolio</title>
+    <meta name="title" content="Prottay Mojumder | AI/ML Researcher">
+    <meta name="description"
+        content="Academic portfolio of Prottay Mojumder — aspiring AI/ML researcher focused on deep learning, reinforcement learning, and scientific machine learning. Seeking PhD opportunities.">
+    <meta name="keywords"
+        content="Prottay Mojumder, AI Research, Machine Learning, Deep Learning, PhD Applicant, Reinforcement Learning">
+    <meta name="author" content="Prottay Mojumder">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Scholar Meta Tags -->
+    <meta name="citation_author" content="Mojumder, Prottay">
+    <meta name="citation_author_institution" content="Daffodil International University">
+    <meta name="citation_title" content="Heat transmission phenomenon in magnetic nanofluid flow">
+    <meta name="citation_journal_title" content="Journal of Thermal Analysis and Calorimetry">
+    <meta name="citation_volume" content="149">
+    <meta name="citation_issue" content="4">
+    <meta name="citation_firstpage" content="1581">
+    <meta name="citation_lastpage" content="1594">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prottay10.github.io/portfolio/">
+    <meta property="og:title" content="Prottay Mojumder | AI/ML Researcher">
+    <meta property="og:description"
+        content="Aspiring AI/ML researcher focused on deep learning, reinforcement learning, and scientific ML.">
+    <meta property="og:image" content="https://prottay10.github.io/portfolio/img/preview.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://prottay10.github.io/portfolio/">
+    <meta property="twitter:title" content="Prottay Mojumder | AI/ML Researcher">
+    <meta property="twitter:description"
+        content="Aspiring AI/ML researcher focused on deep learning, reinforcement learning, and scientific ML.">
+    <meta property="twitter:image" content="https://prottay10.github.io/portfolio/img/preview.png">
+
+    <!-- Favicon & PWA -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0c">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Prottay Mojumder",
+    "jobTitle": "AI/ML Researcher (Aspiring)",
+    "url": "https://prottay10.github.io/portfolio/",
+    "email": "prottaymojumder695@gmail.com",
+    "image": "https://prottay10.github.io/portfolio/img/main.jpg",
+    "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "Bangladesh" },
+    "affiliation": { "@type": "Organization", "name": "Daffodil International University" },
+    "knowsAbout": ["Machine Learning", "Deep Learning", "Reinforcement Learning", "Scientific Computing"],
+    "sameAs": [
+      "https://scholar.google.com/",
+      "https://www.researchgate.net/",
+      "https://orcid.org/",
+      "https://github.com/prottay10",
+      "https://www.linkedin.com/in/prottay-mojumder-154296377/"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+    <div id="loading-screen">
+        <div class="loader">PM</div>
+        <div class="loading-text">Loading Portfolio...</div>
+    </div>
+
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Top Navbar -->
+    <nav class="top-nav" id="topNav">
+        <div class="nav-progress" id="navProgress"></div>
+        <div class="nav-inner">
+            <a href="#header" class="nav-logo" data-nav="header">
+                <span class="logo-mark">PM</span>
+                <span class="logo-text">Prottay Mojumder</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#profile-summary" data-nav="profile-summary">About</a></li>
+                <li><a href="#research-interests" data-nav="research-interests">Research</a></li>
+                <li><a href="#publications" data-nav="publications">Publications</a></li>
+                <li><a href="#experience" data-nav="experience">Experience</a></li>
+                <li><a href="#projects-done" data-nav="projects-done">Projects</a></li>
+                <li><a href="#top-skills" data-nav="top-skills">Skills</a></li>
+                <li><a href="#awards" data-nav="awards">Awards</a></li>
+                <li><a href="#teaching" data-nav="teaching">Teaching</a></li>
+                <li><a href="#education" data-nav="education">Education</a></li>
+                <li><a href="#contact" data-nav="contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <ion-icon name="moon-outline" id="theme-icon"></ion-icon>
+                </button>
+                <button class="nav-search" id="openPalette" aria-label="Search">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <kbd>Ctrl K</kbd>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <ion-icon name="menu-outline" id="mobileMenuIcon"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Email Button -->
+    <a href="mailto:prottaymojumder695@gmail.com" class="floating-email" aria-label="Email me">
+        <ion-icon name="mail-outline"></ion-icon>
+    </a>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <div class="command-palette" id="commandPalette" aria-hidden="true">
+        <div class="command-palette-overlay" data-close-palette></div>
+        <div class="command-palette-box">
+            <div class="command-palette-input-wrapper">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" id="commandInput" placeholder="Type a command or search..." autocomplete="off">
+                <kbd>ESC</kbd>
+            </div>
+            <ul class="command-palette-list" id="commandList"></ul>
+        </div>
+    </div>
+
+    <main>
+        <div class="main-content" id="mainContent">
+            <article>
+                <!-- Header -->
+                <section class="header" id="header">
+                    <div class="name-container">
+                        <img src="" alt="Profile" class="header-profile-image" id="profileImage">
+                        <h1 id="profileName"></h1>
+                    </div>
+                    <p id="profileTagline"></p>
+
+                    <div class="header-actions">
+                        <a href="#" id="resumeBtn" class="btn-primary" download>
+                            <ion-icon name="download-outline"></ion-icon> Download CV
+                        </a>
+                        <a href="#contact" class="btn-secondary" data-nav="contact">
+                            <ion-icon name="mail-outline"></ion-icon> Get in Touch
+                        </a>
+                        <button class="btn-ghost" id="openPalette2" aria-label="Search">
+                            <ion-icon name="search-outline"></ion-icon> Search
+                            <kbd>Ctrl K</kbd>
+                        </button>
+                    </div>
+
+                    <div class="stats-container" id="statsContainer"></div>
+
+                    <ul class="contact-info" id="contactInfoPrimary"></ul>
+                    <ul class="contact-info" id="contactInfoSocial"></ul>
+                </section>
+
+                <!-- Currently Working On -->
+                <section id="now">
+                    <div class="section-header-row">
+                        <h2 class="article-title">Currently Working On</h2>
+                        <span class="now-updated" id="nowUpdated"></span>
+                    </div>
+                    <ul class="now-grid" id="nowGrid">
+                        <li class="loading-skeleton">Loading...</li>
+                    </ul>
+                </section>
+
+                <!-- About -->
+                <section id="profile-summary">
+                    <h2 class="article-title">About Me</h2>
+                    <div class="profile-summary-container" id="profileSummaryContainer"></div>
+                </section>
+
+                <!-- Research Interests -->
+                <section id="research-interests">
+                    <h2 class="article-title">Research Interests</h2>
+                    <ul class="project-grid" id="researchGrid">
+                        <li class="loading-skeleton">Loading research areas...</li>
+                    </ul>
+                </section>
+
+                <!-- Publications -->
+                <section id="publications">
+                    <div class="section-header-row">
+                        <h2 class="article-title">Publications</h2>
+                        <span class="publications-count" id="publicationsCount"></span>
+                    </div>
+                    <ol class="publication-list" id="publicationList">
+                        <li class="loading-skeleton">Loading publications...</li>
+                    </ol>
+                </section>
+
+                <!-- Experience -->
+                <section id="experience">
+                    <div class="section-header-row">
+                        <h2 class="article-title">Research Experience</h2>
+                        <button class="toggle-all-btn" data-target="experience">
+                            <ion-icon name="chevron-down-outline"></ion-icon> Collapse All
+                        </button>
+                    </div>
+                    <ol class="timeline-list" id="experienceList">
+                        <li class="loading-skeleton">Loading experience...</li>
+                    </ol>
+                </section>
+
+                <!-- Projects -->
+                <section id="projects-done">
+                    <h2 class="article-title">Research & Coursework Projects</h2>
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="dl">Deep Learning</button>
+                        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                        <button class="filter-btn" data-filter="teaching">Teaching Tools</button>
+                    </div>
+                    <ul class="project-grid" id="projectGrid">
+                        <li class="loading-skeleton">Loading projects...</li>
+                    </ul>
+                </section>
+
+                <!-- Skills -->
+                <section id="top-skills">
+                    <h2 class="article-title">Skills & Tools</h2>
+                    <div class="skill-tabs" id="skillTabs"></div>
+                    <ul class="skills-grid" id="skillsGrid">
+                        <li class="loading-skeleton">Loading skills...</li>
+                    </ul>
+                </section>
+
+                <!-- Awards -->
+                <section id="awards">
+                    <h2 class="article-title">Awards & Honors</h2>
+                    <ul class="project-grid" id="awardsGrid">
+                        <li class="loading-skeleton">Loading awards...</li>
+                    </ul>
+                </section>
+
+                <!-- Teaching -->
+                <section id="teaching">
+                    <h2 class="article-title">Teaching & Mentoring</h2>
+                    <ol class="timeline-list" id="teachingList">
+                        <li class="loading-skeleton">Loading teaching experience...</li>
+                    </ol>
+                </section>
+
+                <!-- Education -->
+                <section id="education">
+                    <div class="section-header-row">
+                        <h2 class="article-title">Education</h2>
+                        <button class="toggle-all-btn" data-target="education">
+                            <ion-icon name="chevron-down-outline"></ion-icon> Collapse All
+                        </button>
+                    </div>
+                    <ol class="timeline-list" id="educationList">
+                        <li class="loading-skeleton">Loading education...</li>
+                    </ol>
+                </section>
+
+                <!-- Contact -->
+                <section class="contact-section" id="contact">
+                    <div class="contact-form-container">
+                        <h2 class="article-title">Get in Touch</h2>
+                        <p class="contact-form-description">Interested in collaboration, research discussion, or
+                            academic opportunities? Feel free to reach out.</p>
+                        <div class="form-message" id="formMessage"></div>
+                        <form action="https://formspree.io/f/meelpanj" method="POST" id="contactForm">
+                            <label for="email">Your Email
+                                <input type="email" name="email" id="email" placeholder="youremail@example.com"
+                                    required>
+                            </label>
+                            <label for="message">Your Message
+                                <textarea name="message" id="message" placeholder="Write your message here..." required
+                                    maxlength="1000"></textarea>
+                            </label>
+                            <div class="char-counter" id="charCounter">0 / 1000</div>
+                            <button type="submit" id="submitBtn">Send Message</button>
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <span class="logo-mark">PM</span>
+                <span>Prottay Mojumder</span>
+            </div>
+            <p class="footer-text">
+                © <span id="year"></span> Prottay Mojumder · Built with care ·
+                <a href="mailto:prottaymojumder695@gmail.com">Get in touch</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

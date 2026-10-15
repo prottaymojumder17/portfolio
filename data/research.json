@@ -1,0 +1,24 @@
+{
+  "areas": [
+    {
+      "icon": "hardware-chip-outline",
+      "title": "Deep Learning & Neural Architectures",
+      "description": "Exploring transformer models, attention mechanisms, and convolutional networks for sequence modeling, computer vision, and scientific applications."
+    },
+    {
+      "icon": "git-network-outline",
+      "title": "Reinforcement Learning",
+      "description": "Deep Q-Networks (DQN), policy gradient methods, and multi-agent systems with applications in control, game theory, and decision-making."
+    },
+    {
+      "icon": "pulse-outline",
+      "title": "ML for Epidemic & Time-Series Forecasting",
+      "description": "Applying machine learning and game-theoretic models to epidemiological forecasting, optimal control, and behavioral dynamics."
+    },
+    {
+      "icon": "analytics-outline",
+      "title": "Scientific Machine Learning",
+      "description": "Physics-informed neural networks (PINNs), neural ODEs, and hybrid models combining numerical simulation with deep learning."
+    }
+  ]
+}

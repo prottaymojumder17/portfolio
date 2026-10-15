@@ -1,0 +1,27 @@
+[
+  {
+    "title": "BSc (Eng.) in Software Engineering",
+    "meta": "Daffodil International University | 2025 - 2029 (Expected)",
+    "points": [
+      "<b>Relevant Coursework:</b> Data Structures, Algorithms, Numerical Methods, Linear Algebra, Probability & Statistics, Machine Learning Fundamentals",
+      "<b>Achievement:</b> University Bachelors Degree Government Scholarship",
+      "<b>Undergraduate Project:</b> Data Science — A Study of Mixture Models"
+    ]
+  },
+  {
+    "title": "Higher Secondary Certificate (HSC) — Science",
+    "meta": "Govt. Huseyn Shaheed Suhrawardy College, Magura | 2021 - 2023",
+    "points": [
+      "<b>GPA:</b> 4.67 / 5.00",
+      "<b>Achievement:</b> District Champion — District-Level Computer Competition (1st Place)"
+    ]
+  },
+  {
+    "title": "Secondary School Certificate (SSC) — Science",
+    "meta": "Hazipur Secondary School | 2016 - 2021",
+    "points": [
+      "<b>GPA:</b> 5.00 / 5.00",
+      "<b>Achievement:</b> Active participant in cultural programs, sports, and school-level academic events"
+    ]
+  }
+]

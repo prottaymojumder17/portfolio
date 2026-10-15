@@ -1,0 +1,31 @@
+{
+  "tabs": [
+    { "id": "all", "label": "All" },
+    { "id": "ml", "label": "ML / DL" },
+    { "id": "programming", "label": "Programming" },
+    { "id": "research", "label": "Research Tools" }
+  ],
+  "skills": [
+    { "name": "PyTorch", "category": "ml", "level": 85 },
+    { "name": "TensorFlow / Keras", "category": "ml", "level": 78 },
+    { "name": "scikit-learn", "category": "ml", "level": 88 },
+    {
+      "name": "Reinforcement Learning (DQN, PPO)",
+      "category": "ml",
+      "level": 80
+    },
+    { "name": "Transformers & Attention", "category": "ml", "level": 75 },
+    {
+      "name": "Python (NumPy, Pandas, Matplotlib)",
+      "category": "programming",
+      "level": 92
+    },
+    { "name": "C / C++", "category": "programming", "level": 88 },
+    { "name": "MATLAB", "category": "programming", "level": 82 },
+    { "name": "JavaScript", "category": "programming", "level": 78 },
+    { "name": "LaTeX", "category": "research", "level": 90 },
+    { "name": "Mathematica", "category": "research", "level": 78 },
+    { "name": "Jupyter / Colab", "category": "research", "level": 92 },
+    { "name": "Git & GitHub", "category": "research", "level": 85 }
+  ]
+}
