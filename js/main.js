@@ -83,22 +83,19 @@ const navProgress = document.getElementById('navProgress');
 const topNav = document.getElementById('topNav');
 
 // Create section name indicator
-let sectionIndicator = null;
-if (topNav) {
-  sectionIndicator = document.createElement('span');
-  sectionIndicator.className = 'nav-progress-section';
-  topNav.appendChild(sectionIndicator);
-}
+// let sectionIndicator = null;
+// if (topNav) {
+//   sectionIndicator = document.createElement('span');
+//   sectionIndicator.className = 'nav-progress-section';
+//   topNav.appendChild(sectionIndicator);
+// }
 
 window.addEventListener('scroll', () => {
   const sections = document.querySelectorAll('section[id]');
   let current = '';
-  let currentName = '';
   sections.forEach(s => {
     if (window.scrollY >= s.offsetTop - 150) {
       current = s.getAttribute('id');
-      const title = s.querySelector('.article-title');
-      if (title) currentName = title.textContent.trim();
     }
   });
   document.querySelectorAll('.nav-links a[data-nav]').forEach(a => {
@@ -106,10 +103,10 @@ window.addEventListener('scroll', () => {
     if (a.getAttribute('data-nav') === current) a.classList.add('active');
   });
 
-  // Update section indicator
-  if (sectionIndicator) {
-    sectionIndicator.textContent = currentName;
-  }
+  // // Update section indicator
+  // if (sectionIndicator) {
+  //   sectionIndicator.textContent = currentName;
+  // }
 
   const total = document.documentElement.scrollHeight - window.innerHeight;
   const progress = total > 0 ? (window.scrollY / total) * 100 : 0;

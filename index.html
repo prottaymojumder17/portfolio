@@ -47,12 +47,12 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="apple-touch-icon" href="img/favicon.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#0a0a0c">
+    <meta name="theme-color" content="#0A1628">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap"
         rel="stylesheet">
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -112,9 +112,6 @@
                 <li><a href="#contact" data-nav="contact">Contact</a></li>
             </ul>
             <div class="nav-actions">
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                    <ion-icon name="moon-outline" id="theme-icon"></ion-icon>
-                </button>
                 <button class="nav-search" id="openPalette" aria-label="Search">
                     <ion-icon name="search-outline"></ion-icon>
                     <kbd>Ctrl K</kbd>
@@ -180,7 +177,7 @@
                 <!-- Currently Working On -->
                 <section id="now">
                     <div class="section-header-row">
-                        <h2 class="article-title">Currently Working On</h2>
+                        <h2 class="article-title"><span class="section-num">I</span>Currently Working On</h2>
                         <span class="now-updated" id="nowUpdated"></span>
                     </div>
                     <ul class="now-grid" id="nowGrid">
@@ -190,13 +187,16 @@
 
                 <!-- About -->
                 <section id="profile-summary">
-                    <h2 class="article-title">About Me</h2>
+                    <h2 class="article-title"><span class="section-num">II</span>About Me</h2>
                     <div class="profile-summary-container" id="profileSummaryContainer"></div>
+                    <blockquote class="pull-quote">
+                        Research is not about finding answers — it's about asking better questions.
+                    </blockquote>
                 </section>
 
                 <!-- Research Interests -->
                 <section id="research-interests">
-                    <h2 class="article-title">Research Interests</h2>
+                    <h2 class="article-title"><span class="section-num">III</span>Research Interests</h2>
                     <ul class="project-grid" id="researchGrid">
                         <li class="loading-skeleton">Loading research areas...</li>
                     </ul>
@@ -205,7 +205,7 @@
                 <!-- Publications -->
                 <section id="publications">
                     <div class="section-header-row">
-                        <h2 class="article-title">Publications</h2>
+                        <h2 class="article-title"><span class="section-num">IV</span>Publications</h2>
                         <span class="publications-count" id="publicationsCount"></span>
                     </div>
                     <ol class="publication-list" id="publicationList">
@@ -216,7 +216,7 @@
                 <!-- Experience -->
                 <section id="experience">
                     <div class="section-header-row">
-                        <h2 class="article-title">Research Experience</h2>
+                        <h2 class="article-title"><span class="section-num">V</span>Research Experience</h2>
                         <button class="toggle-all-btn" data-target="experience">
                             <ion-icon name="chevron-down-outline"></ion-icon> Collapse All
                         </button>
@@ -228,7 +228,7 @@
 
                 <!-- Projects -->
                 <section id="projects-done">
-                    <h2 class="article-title">Research & Coursework Projects</h2>
+                    <h2 class="article-title"><span class="section-num">VI</span>Research &amp; Coursework Projects</h2>
                     <div class="project-filters">
                         <button class="filter-btn active" data-filter="all">All</button>
                         <button class="filter-btn" data-filter="dl">Deep Learning</button>
@@ -242,7 +242,7 @@
 
                 <!-- Skills -->
                 <section id="top-skills">
-                    <h2 class="article-title">Skills & Tools</h2>
+                    <h2 class="article-title"><span class="section-num">VII</span>Skills &amp; Tools</h2>
                     <div class="skill-tabs" id="skillTabs"></div>
                     <ul class="skills-grid" id="skillsGrid">
                         <li class="loading-skeleton">Loading skills...</li>
@@ -251,7 +251,7 @@
 
                 <!-- Awards -->
                 <section id="awards">
-                    <h2 class="article-title">Awards & Honors</h2>
+                    <h2 class="article-title"><span class="section-num">VIII</span>Awards &amp; Honors</h2>
                     <ul class="project-grid" id="awardsGrid">
                         <li class="loading-skeleton">Loading awards...</li>
                     </ul>
@@ -259,7 +259,7 @@
 
                 <!-- Teaching -->
                 <section id="teaching">
-                    <h2 class="article-title">Teaching & Mentoring</h2>
+                    <h2 class="article-title"><span class="section-num">IX</span>Teaching &amp; Mentoring</h2>
                     <ol class="timeline-list" id="teachingList">
                         <li class="loading-skeleton">Loading teaching experience...</li>
                     </ol>
@@ -268,7 +268,7 @@
                 <!-- Education -->
                 <section id="education">
                     <div class="section-header-row">
-                        <h2 class="article-title">Education</h2>
+                        <h2 class="article-title"><span class="section-num">X</span>Education</h2>
                         <button class="toggle-all-btn" data-target="education">
                             <ion-icon name="chevron-down-outline"></ion-icon> Collapse All
                         </button>
@@ -281,7 +281,7 @@
                 <!-- Contact -->
                 <section class="contact-section" id="contact">
                     <div class="contact-form-container">
-                        <h2 class="article-title">Get in Touch</h2>
+                        <h2 class="article-title"><span class="section-num">XI</span>Get in Touch</h2>
                         <p class="contact-form-description">Interested in collaboration, research discussion, or
                             academic opportunities? Feel free to reach out.</p>
                         <div class="form-message" id="formMessage"></div>
@@ -317,7 +317,6 @@
         </div>
     </footer>
 
-    <script src="js/theme.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/filters.js"></script>
