@@ -355,7 +355,7 @@ const executeCommand = cmd => {
       '_blank'
     );
   } else if (cmd.action === 'github') {
-    window.open('https://github.com/prottay10', '_blank');
+    window.open('https://github.com/prottaymojumder17', '_blank');
   } else if (cmd.action === 'email') {
     window.location.href = 'mailto:prottaymojumder695@gmail.com';
   }

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://prottay10.github.io/portfolio/sitemap.xml
+Sitemap: https://prottaymojumder17.github.io/portfolio/sitemap.xml
