@@ -20,6 +20,14 @@ Oxford Blue theme · Deep Navy + Warm Amber + Ivory · Doctoral Thesis Aesthetic
 
 This repository contains the source code for my **academic portfolio website** — designed for a research-focused career in **Artificial Intelligence & Machine Learning**.  
 
+The site showcases:  
+- 🎯 **Research Interests**: Deep Learning, Reinforcement Learning, ML for Epidemics, Scientific ML  
+- 📚 **Publications** with BibTeX copy functionality  
+- 🎓 **Academic Journey**: BSc Software Engineering at Daffodil International University  
+- 🏆 **Awards & Honors**  
+- 👨‍🏫 **Teaching & Mentoring Experience**  
+- 🔬 **Research Projects & Coursework**  
+
 ---
 
 ## ✨ Features  
@@ -54,6 +62,71 @@ This repository contains the source code for my **academic portfolio website** �
 
 ---
 
+## 🎨 Design Philosophy  
+
+Inspired by **doctoral thesis covers, university press publications, and archival aesthetics**:  
+
+- Deep Navy `#0A1628` — leather-bound book cover  
+- Warm Amber `#E8A33D` — brass accents on an old library desk  
+- Ivory `#F5EFE0` — aged paper  
+- **Libre Baskerville** — classic serif used by Harvard University Press  
+- Sharp corners — letterpress precision  
+- Paper grain texture — tactile, physical feel  
+
+---
+
+## 🛠️ Tech Stack  
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)  
+![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white)  
+
+---
+
+## 📁 Project Structure  
+
+portfolio/
+│── index.html          # Main HTML file
+│── 404.html            # Custom 404 page
+│── robots.txt          # Search engine directives
+│── sitemap.xml         # XML sitemap
+│── manifest.json       # PWA manifest
+│── resume.pdf          # CV (downloadable)
+│── README.md           # This file
+│
+├── css/
+│   ├── style.css       # Main stylesheet (Oxford Blue theme)
+│   └── responsive.css  # Media queries & mobile styles
+│
+├── js/
+│   ├── main.js         # Main orchestration
+│   ├── loader.js       # JSON data loader
+│   ├── particles.js    # Particle canvas background
+│   ├── filters.js      # Skill/project filters
+│   └── form.js         # Contact form handler
+│
+├── data/
+│   ├── site.json       # Personal info, socials, stats
+│   ├── now.json        # Currently working on
+│   ├── research.json   # Research interests
+│   ├── publications.json # Publications + BibTeX
+│   ├── experience.json # Research experience
+│   ├── projects.json   # Projects with tags
+│   ├── skills.json     # Skills & tools
+│   ├── awards.json     # Awards & honors
+│   ├── teaching.json   # Teaching & mentoring
+│   └── education.json  # Academic degrees
+│
+└── img/
+├── main.jpg        # Profile picture
+├── favicon.png     # Favicon & PWA icon
+└── preview.png     # Social share preview
+
+Code
+
+---
+
 ## 📊 Lighthouse Score  
 
 <table>
@@ -81,14 +154,13 @@ This repository contains the source code for my **academic portfolio website** �
 
 This project is licensed under the **MIT License** — see the LICENSE file for details.  
 
+- Content (text, images, publications) © 2025 Prottay Mojumder. All rights reserved.  
+- Code (HTML/CSS/JS) may be used as reference for personal learning, but please don’t copy the design or content directly.  
+
 ---
 
 ## 🤝 Connect  
 
 [![Email](https://img.shields.io/badge/Email-prottaymojumder695@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prottaymojumder695@gmail.com)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Prottay_Mojumder-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prottay-mojumder)  
-[![GitHub](https://img.shields.io/badge/GitHub-prottaymojumder17-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prottaymojumder17)  
-
----
-
-⭐ If you find this portfolio inspiring, feel free to **star this repo**! ⭐  
+[![GitHub](https://img.shields.io/badge/Git
